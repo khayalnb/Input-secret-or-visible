@@ -1,0 +1,50 @@
+                * {
+                    padding: 0;
+                    margin: 0;
+                    box-sizing: border-box;
+                }
+                
+                body {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 100vh;
+                }
+                
+                .box {
+                    width: 350px;
+                    height: 150px;
+                    border: 2px solid rgb(16, 146, 179);
+                    border-radius: 10px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                }
+                
+                #input {
+                    border: 1.5px solid dodgerblue;
+                    outline: none;
+                    height: 25px;
+                    width: 70%;
+                    border-radius: 3px;
+                    padding: 5px 40px 5px 5px;
+                    position: relative;
+                }
+                
+                #input:hover {
+                    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+                }
+                
+                i {
+                    position: absolute;
+                    top: auto;
+                    margin-top: 22px;
+                    margin-left: 200px;
+                }
+                
+                label {
+                    font-family: sans-serif;
+                    margin-bottom: 5px;
+                    color: dodgerblue;
+                }
